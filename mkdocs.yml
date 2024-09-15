@@ -1,0 +1,90 @@
+site_name: StreamSharp Documentation
+site_url: https://streamsharp.github.io/
+theme:
+  icon:
+    admonition:
+      note: octicons/tag-16
+      abstract: octicons/checklist-16
+      info: octicons/info-16
+      tip: octicons/squirrel-16
+      success: octicons/check-16
+      question: octicons/question-16
+      warning: octicons/alert-16
+      failure: octicons/x-circle-16
+      danger: octicons/zap-16
+      bug: octicons/bug-16
+      example: octicons/beaker-16
+      quote: octicons/quote-16
+  name: material
+  features:
+    - navigation.instant
+    - navigation.instant.progress
+    - navigation.tabs
+    - navigation.top
+    - navigation.indexes
+    - search
+    - search.suggest
+    - search.highlight
+    - content.tabs.link
+    - content.code.annotation
+    - content.code.copy
+    - content.tooltips
+  language: en
+  palette:
+    - scheme: default
+      toggle:
+        icon: material/toggle-switch-off-outline 
+        name: Switch to dark mode
+      primary: darkblue
+      accent: purple 
+    - scheme: slate 
+      toggle:
+        icon: material/toggle-switch
+        name: Switch to light mode    
+      primary: darkblue
+      accent: pink
+
+extra:
+  social:
+    - icon: fontawesome/brands/github-alt
+      link: https://github.com/streamsharp
+      name: StreamSharp on GitHub
+  consent:
+    title: Cookie Request
+    description: >- 
+      We would like to ask for your permission to use cookies to recognise your repeated visits and preferences, along with measuring the effectiveness of our documentation. You can update your consent at any time by clicking the link at the bottom of the page.
+    actions:
+      - accept
+      - reject
+      - manage
+    cookies:
+      analytics:
+        name: Google Analytics
+        checked: false
+
+plugins:
+  - privacy
+  - search
+
+markdown_extensions: 
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite:
+  - pymdownx.snippets:
+  - admonition
+  - pymdownx.arithmatex:
+      generic: true
+  - footnotes
+  - pymdownx.superfences
+  - pymdownx.mark
+  - pymdownx.details
+  - attr_list
+  - tables
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - toc:
+      permalink: true
+
+copyright: |
+  &copy; 2024 <a href="https://www.github.com/paladinleeds/" target="_blank">Paladinleeds</a> - <a href="#__consent">manage your cookie consent</a>
