@@ -1,7 +1,9 @@
 site_name: StreamSharp Documentation
 site_url: https://streamsharp.github.io/
+site_description: Documentation for the C# Stream Deck wrapper known as StreamSharp
 theme:
   icon:
+    annotation: material/star-four-points-circle
     admonition:
       note: octicons/tag-16
       abstract: octicons/checklist-16
@@ -16,6 +18,7 @@ theme:
       example: octicons/beaker-16
       quote: octicons/quote-16
   name: material
+  custom_dir: overrides
   features:
     - navigation.instant
     - navigation.instant.progress
@@ -52,10 +55,11 @@ extra:
   consent:
     title: Cookie Request
     description: >- 
-      We would like to ask for your permission to use cookies to recognise your repeated visits and preferences, along with measuring the effectiveness of our documentation. You can update your consent at any time by clicking the link at the bottom of the page.
+      We would like to ask for your permission to use cookies for the listed purposes below. You can update your consent at any time by clicking the "manage your cookie consent" at the bottom of the page. Cookies are disabled by default.
+      <br/><br/>
+      Google Analytics - We use this to track your behaviour across our site, understanding your click-throughs, when you leave the site, and other useful behaviour mapping information
     actions:
       - accept
-      - reject
       - manage
     cookies:
       analytics:
@@ -79,6 +83,7 @@ markdown_extensions:
   - pymdownx.mark
   - pymdownx.details
   - attr_list
+  - md_in_html
   - tables
   - pymdownx.emoji:
       emoji_index: !!python/name:material.extensions.emoji.twemoji
