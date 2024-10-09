@@ -38,14 +38,14 @@ theme:
       toggle:
         icon: material/toggle-switch-off-outline 
         name: Switch to dark mode
-      primary: darkblue
-      accent: purple 
+      primary: indigo
+      accent: deep orange
     - scheme: slate 
       toggle:
         icon: material/toggle-switch
         name: Switch to light mode    
-      primary: darkblue
-      accent: pink
+      primary: blue
+      accent: amber
 
 extra:
   version:
