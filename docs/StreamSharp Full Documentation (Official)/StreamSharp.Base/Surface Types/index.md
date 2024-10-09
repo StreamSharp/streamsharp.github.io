@@ -1,6 +1,6 @@
 # StreamSharp Surface Types
 
-StreamSharp Inputs is a subset of StreamSharp that is focused on providing the class structure required to access certain types of input (for example keys, or keys & dials).
+The StreamSharp surface types are the means in which to connect to specific types of input on a Stream Deck device.
 
 ## Surface type categories
 
