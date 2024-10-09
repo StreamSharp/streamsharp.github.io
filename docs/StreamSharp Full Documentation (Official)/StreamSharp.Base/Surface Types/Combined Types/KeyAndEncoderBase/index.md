@@ -6,7 +6,7 @@ This combines the keys and the dials into a single format (for a single action).
 
 ```cs
 [PluginActionId("com.developer.csharptemplate.pluginactionkeyanddial")]
-public class PluginActionBoth : KeyAndEncoderBase
+public class PluginActionKeyAndDial : KeyAndEncoderBase
 {
     private class PluginSettings
     {
