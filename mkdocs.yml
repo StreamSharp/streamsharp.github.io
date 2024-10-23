@@ -35,18 +35,28 @@ theme:
     - content.tooltips
   language: en
   palette:
-    - scheme: default
+  
+    #- media: "(prefers-color-scheme)"
+    #  toggle:
+    #    icon: material/link
+    #    name: Switch to light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
       toggle:
         icon: material/toggle-switch-off-outline 
         name: Switch to dark mode
       primary: indigo
       accent: deep orange
-    - scheme: slate 
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate 
       toggle:
         icon: material/toggle-switch
-        name: Switch to light mode    
+        name: Switch to system default    
       primary: blue
       accent: amber
+
+hooks:
+  - overrides/shortcodes.py
 
 extra:
   version:
@@ -84,6 +94,8 @@ markdown_extensions:
       generic: true
   - footnotes
   - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
   - pymdownx.mark
   - pymdownx.details
   - attr_list
