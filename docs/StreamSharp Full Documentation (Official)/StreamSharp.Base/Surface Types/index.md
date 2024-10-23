@@ -4,7 +4,7 @@ The StreamSharp surface types are the means in which to connect to specific type
 
 ## Surface type categories
 
-Please note that we only list the two categories for types on this page. For more information on individual surface types, please see the navigation.
+Please note that we only list the two categories for types on this page. For more information on individual surface types, please see the navigation. If you are new to Stream Deck coding, it is recommended you check the [Shared Functionality](./shared-functions.md) first before looking at individual types.
 
 ### Individual Types
 
