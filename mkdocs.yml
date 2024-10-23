@@ -55,8 +55,8 @@ theme:
       primary: blue
       accent: amber
 
-hooks:
-  - overrides/shortcodes.py
+#hooks:
+#  - overrides/shortcodes.py
 
 extra:
   version:
